@@ -1,3 +1,6 @@
+// Boss är en subklass av Enemy och använder sig av EnemyAttack interfacet
+
+
 import java.util.Scanner;
 
 public class Boss extends Enemy implements EnemyAttack {

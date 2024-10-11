@@ -1,3 +1,6 @@
+// Consumable är en subklass av Item och använder sig av Usable interfacet
+
+
 public class Consumable extends Item implements Usable {
     private String effect;
 

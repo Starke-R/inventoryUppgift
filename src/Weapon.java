@@ -1,3 +1,6 @@
+// Weapon är en subklass av Item och använder sig av Equippable interfacet
+
+
 public class Weapon extends Item implements Equippable {
     private int damage;
     private String type;  

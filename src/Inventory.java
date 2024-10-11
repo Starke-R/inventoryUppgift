@@ -28,7 +28,7 @@ public class Inventory {
         String choice = scanner.nextLine();
 
         if (choice.equalsIgnoreCase("Y")) {
-            if (items.isEmpty()) {
+            if (items.isEmpty()) { 
                 System.out.println("No items in the inventory.");
             } else {
                 System.out.println("Inventory contains:");

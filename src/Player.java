@@ -28,7 +28,7 @@ public class Player {
         if (choiceInventory.equalsIgnoreCase("Y")) {
             inventory.addItem(item);
 
-            if (item instanceof Equippable) {
+            if (item instanceof Equippable) { // Kollar så att Itemet i fråga använder sig av interfacet Equippable (dvs Weapon eller Armour)
                 System.out.println("Equip item? Y/N");
                 String choiceEquip = scanner.nextLine();
                 if (choiceEquip.equalsIgnoreCase("Y")) {
@@ -37,7 +37,7 @@ public class Player {
             } 
 
 
-            if (item instanceof Usable) {
+            if (item instanceof Usable) { // Kollar så att Itemet i fråga använder sig av interfacet Usable (dvs Consumable)
                 System.out.println("Consume item? Y/N");
                 String choiceUse = scanner.nextLine();
                 if (choiceUse.equalsIgnoreCase("Y")) {

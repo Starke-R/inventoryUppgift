@@ -1,3 +1,5 @@
+// Armour är en subklass av Item och använder sig av Equippable interfacet
+
 public class Armour extends Item implements Equippable {
     private int protection;
     private String material;
